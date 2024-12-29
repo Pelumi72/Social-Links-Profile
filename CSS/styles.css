@@ -54,6 +54,12 @@ img {
     color: black;
 }
 
+.handles:focus {
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    transition: all 0.5secs ease-in-out;
+}
+
 /* Attribution Section */
 .attribution {
     position: relative;
